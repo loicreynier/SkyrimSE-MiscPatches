@@ -1,0 +1,175 @@
+{
+  "nodes": {
+    "flake-utils": {
+      "inputs": {
+        "systems": "systems"
+      },
+      "locked": {
+        "lastModified": 1710146030,
+        "narHash": "sha256-SZ5L6eA7HJ/nmkzGG7/ISclqe6oZdOZTNoesiInkXPQ=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "b1d9ab70662946ef0850d488da1c9019f3a9752a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "git-hooks": {
+      "inputs": {
+        "flake-compat": [],
+        "gitignore": "gitignore",
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "nixpkgs-stable": "nixpkgs-stable"
+      },
+      "locked": {
+        "lastModified": 1724837688,
+        "narHash": "sha256-KKhq6W8NAv0VdLPT9VGxoF+oUHd+Lnty2BJHTb0244s=",
+        "owner": "cachix",
+        "repo": "pre-commit-hooks.nix",
+        "rev": "e4b258096adade1daed37f732c343d1b5374dfae",
+        "type": "github"
+      },
+      "original": {
+        "owner": "cachix",
+        "repo": "pre-commit-hooks.nix",
+        "type": "github"
+      }
+    },
+    "gitignore": {
+      "inputs": {
+        "nixpkgs": [
+          "git-hooks",
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1709087332,
+        "narHash": "sha256-HG2cCnktfHsKV0s4XW83gU3F57gaTljL9KNSuG6bnQs=",
+        "owner": "hercules-ci",
+        "repo": "gitignore.nix",
+        "rev": "637db329424fd7e46cf4185293b9cc8c88c95394",
+        "type": "github"
+      },
+      "original": {
+        "owner": "hercules-ci",
+        "repo": "gitignore.nix",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1724850560,
+        "narHash": "sha256-WRSTT5QJ+5ABxuHaWNMGJIC7F20ZQLKPm/WpEMYUyUQ=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "2df5923cbe93fc6f25d62c5a3a8f13267a0523bf",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs-lor": {
+      "inputs": {
+        "flake-utils": [
+          "flake-utils"
+        ],
+        "git-hooks": [
+          "git-hooks"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1724761925,
+        "narHash": "sha256-q1jcm+rinxZxKVF0ucHh23iwFoLjzhNsNBTO7btfCyE=",
+        "owner": "loicreynier",
+        "repo": "nixpkgs-lor",
+        "rev": "cabe0b4a720f36fc35fb1fe743f13d1d4dfa342d",
+        "type": "github"
+      },
+      "original": {
+        "owner": "loicreynier",
+        "repo": "nixpkgs-lor",
+        "type": "github"
+      }
+    },
+    "nixpkgs-stable": {
+      "locked": {
+        "lastModified": 1720386169,
+        "narHash": "sha256-NGKVY4PjzwAa4upkGtAMz1npHGoRzWotlSnVlqI40mo=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "194846768975b7ad2c4988bdb82572c00222c0d7",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-24.05",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "pandoc-bbcode_nexus": {
+      "inputs": {
+        "flake-utils": [
+          "flake-utils"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "pre-commit-hooks": [
+          "git-hooks"
+        ]
+      },
+      "locked": {
+        "lastModified": 1710769935,
+        "narHash": "sha256-QaJbQdoZvocDwcWW6BEqgvw08+Nj9GLFEfRfAX5TFos=",
+        "owner": "loicreynier",
+        "repo": "pandoc-bbcode_nexus",
+        "rev": "e61a229a867e9098e87f464e797de940c93ea165",
+        "type": "github"
+      },
+      "original": {
+        "owner": "loicreynier",
+        "repo": "pandoc-bbcode_nexus",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "flake-utils": "flake-utils",
+        "git-hooks": "git-hooks",
+        "nixpkgs": "nixpkgs",
+        "nixpkgs-lor": "nixpkgs-lor",
+        "pandoc-bbcode_nexus": "pandoc-bbcode_nexus"
+      }
+    },
+    "systems": {
+      "locked": {
+        "lastModified": 1681028828,
+        "narHash": "sha256-Vy1rq5AaRuLzOxct8nz4T6wlgyUR7zLU309k9mBC768=",
+        "owner": "nix-systems",
+        "repo": "default",
+        "rev": "da67096a3b9bf56a91d16901293e51ba5b49a27e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-systems",
+        "repo": "default",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
