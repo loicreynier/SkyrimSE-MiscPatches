@@ -1,3 +1,6 @@
 Lorkhan
 SkyPatcher
 Eversnow
+Skaafin
+Daedric
+cuirass
