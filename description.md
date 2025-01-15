@@ -8,3 +8,7 @@
 ## The Skaafin Price (SkyPatcher)
 
 - CC Daedric Plate: replace the Empress cuirass with the Daedric Plate
+
+## Mihail's Sewer Rats (SkyPatcher)
+
+- No Gold patch: remove gold from rats' inventory
